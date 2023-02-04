@@ -7,6 +7,7 @@ from airflow.utils.task_group import TaskGroup
 from airflow.operators.oracle_operator import OracleOperator
 from crm.crm_vuon_data_lake import ConsultasHive, ConsultasOracle
 
+
 #[START default_dag]
 default_args = {
         "owner": "crm",
